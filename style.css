@@ -1,0 +1,85 @@
+body{
+	text-align: center;
+	font-family: 'Yatra One', cursive;
+	background: url("http://www.wallpapers4u.org/wp-content/uploads/blue_bright_matte_solid_surface_10485_1920x1080.jpg") no-repeat center center fixed; 
+ 	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+ 	-o-background-size: cover;
+ 	background-size: cover;
+}
+.buttonSpacing{
+	padding-top: 2px;
+}
+
+.numberField{
+	min-width: 215px;
+}
+input{
+	text-align: right;
+}
+#equals{
+	width: 105.5px;
+}
+.btn{
+	width: 50px;
+}
+.fieldSpacing{
+	padding-top: 20px;
+	padding-bottom: 5px;
+}
+header,
+footer {
+    -webkit-animation: color-change 4s infinite;
+    -moz-animation: color-change 4s infinite;
+    -o-animation: color-change 4s infinite;
+    -ms-animation: color-change 4s infinite;
+    animation: color-change 4s infinite;
+}
+
+@-webkit-keyframes color-change {
+    0% { color: red; }
+    25% { color: blue; }
+    50% { color: green; }
+    75% { color: blue; }
+    100% { color: red; }
+}
+@-moz-keyframes color-change {
+    0% { color: red; }
+    25% { color: blue; }
+    50% { color: green; }
+    75% { color: blue; }
+    100% { color: red; }
+}
+@-ms-keyframes color-change {
+    0% { color: red; }
+    25% { color: blue; }
+    50% { color: green; }
+    75% { color: blue; }
+    100% { color: red; }
+}
+@-o-keyframes color-change {
+    0% { color: red; }
+    25% { color: blue; }
+    50% { color: green; }
+    75% { color: blue; }
+    100% { color: red; }
+}
+@keyframes color-change {
+    0% { color: red; }
+    25% { color: blue; }
+    50% { color: green; }
+    75% { color: blue; }
+    100% { color: red; }
+}
+#calculatorShape{
+	margin-right: auto;
+	margin-left: auto;
+	width: 10%;
+	min-width: 300px;
+	padding-bottom: 5px;
+	border-style: solid;
+	border-color: #662e06;
+	border-radius: 15px;
+	background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdh7OJaufCClHtGRwvOCfbS3QCSPexzVQjA53w7AGkM8OhmxUTQw") center;
+}
+

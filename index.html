@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Yatra+One" rel="stylesheet">
+	<script src="script.js"></script>
+	<title>Calculator</title>
+</head>
+<body>
+	<div class="fieldSpacing">
+	<header>Calculator</header>
+	</div>
+	<div id="calculatorShape">
+	<div class="fieldSpacing">
+		<input type="text" class="numberField" id="textArea" readonly>
+	</div>
+	<div class="buttonSpacing">
+		<button class="btn btn-primary custom" onclick="clearAll()">C</button>
+		<button class="btn btn-primary custom" onclick="backSpace()">&larr;</button>
+		<button class="btn btn-primary custom" onclick="square()">x^2</button>
+		<button class="btn btn-primary custom" value="/" onclick="insert(value)">/</button>
+	</div>
+	<div class="buttonSpacing">
+		<button class="btn btn-secondary" value="^" onclick="insert(value)">^</button>
+		<button class="btn btn-secondary" value="3.14" onclick="insert(value)">&#960;</button>
+		<button class="btn btn-secondary" value="2.718" onclick="insert(value)">e</button>
+		<button class="btn btn-primary" value = "log" onclick="logBase10()">log</button>
+	</div>
+	<div class="buttonSpacing">
+		<button class="btn btn-secondary" value="sin" onclick="sin()">sin</button>
+		<button class="btn btn-secondary" value="cos" onclick="cos()">cos</button>
+		<button class="btn btn-secondary" value="tan" onclick="tan()">tan</button>
+		<button class="btn btn-primary" value="sqrt" onclick="squareRoot()">sqrt</button>
+	</div>
+	<div class="buttonSpacing">
+		<button class="btn btn-dark" value="0" onclick="insert(value)">0</button>
+		<button class="btn btn-dark" value="." onclick="insert(value)">.</button>
+		<button class="btn btn-dark" value="(-)" onclick="negative()">(-)</button>
+		<button class="btn btn-primary" value = "ln" onclick="logBaseE()">ln</button>
+	</div>
+	<div class="buttonSpacing">
+		<button class="btn btn-dark" value="1" onclick="insert(value)">1</button>
+		<button class="btn btn-dark" value="2" onclick="insert(value)">2</button>
+		<button class="btn btn-dark" value="3" onclick="insert(value)">3</button>
+		<button class="btn btn-primary" value="*" onclick="insert(value)">*</button>
+	</div>
+	<div class="buttonSpacing">
+		<button class="btn btn-dark" value="4" onclick="insert(value)">4</button>
+		<button class="btn btn-dark" value="5" onclick="insert(value)">5</button>
+		<button class="btn btn-dark" value="6" onclick="insert(value)">6</button>
+		<button class="btn btn-primary" value="-" onclick="insert(value)">-</button>
+	</div>
+	<div class="buttonSpacing">
+		<button class="btn btn-dark" value="7" onclick="insert(value)">7</button>
+		<button class="btn btn-dark" value="8" onclick="insert(value)">8</button>
+		<button class="btn btn-dark" value="9" onclick="insert(value)">9</button>
+		<button class="btn btn-primary" value = "+" onclick="insert(value)">+</button>
+	</div>
+	<div class="buttonSpacing">
+		<button class="btn btn-primary" value = "ans" id="equals" onclick="ansPrevious()">ANS</button>
+		<button class="btn btn-primary" value = "=" id="equals" onclick="compute()">=</button>
+	</div>
+	</div>
+</body>
+<footer>
+	<div class="fieldSpacing">
+	<span>Made by Stanley</span>
+	</div>
+</footer>
+</html>
